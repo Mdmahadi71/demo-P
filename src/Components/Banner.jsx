@@ -4,6 +4,7 @@ import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 import { BsDownload } from "react-icons/bs";
 import { Typewriter ,handleType } from 'react-simple-typewriter'
+import { FaFacebookSquare ,FaLinkedin ,FaInstagramSquare ,FaGithub  } from "react-icons/fa";
 
 const Banner = () => {
 
@@ -33,6 +34,13 @@ const Banner = () => {
                                 <FaLocationDot/>
                                 <h3 className=' font-openG font-medium text-[15px] text-blue-500'>Dhaka, Bangladesh</h3>
                             </div>
+
+                            <div className=" flex gap-x-4 justify-center items-center my-2 ">
+                                <FaFacebookSquare  className=' text-[22px] cursor-pointer'/>
+                                <FaLinkedin className=' text-[22px] cursor-pointer' />
+                                <FaInstagramSquare className=' text-[22px] cursor-pointer' />
+                                <FaGithub className=' text-[22px] cursor-pointer' />
+                            </div>
                           
                             <button className=" flex justify-center mx-auto gap-x-2 items-center py-2 px-[16px] bg-Sky hover:bg-black text-black  hover:text-white duration-300 rounded-[5px] my-[10px] ">
                                 <BsDownload />
@@ -47,7 +55,7 @@ const Banner = () => {
                            <h2 className=' font-openG font-semibold text-[22px] text-Sky '>Lorem ipsum dolor sit amet.</h2>
                             <h1 style={{paddingTop: '1rem', margin: 'auto 0', fontWeight: 'bold'  }}>
                                 {' '}
-                                <span style={{color: '#0ea5e9', fontWeight: 'bold', fontFamily: "Sedan",  }}>
+                                <span style={{color: '#0ea5e9', fontWeight: 'bold', fontFamily: "Gowun Batang", fontSize:'25px'  }}>
                                    
                                     <Typewriter
                                         words={["I'm a Devloper ", "I'm a Freelancer "]}
