@@ -12,7 +12,7 @@ const Banner = () => {
 
     }
     return (
-        <div className=' py-[50px] bg-black'>
+        <div id='home' className=' py-[50px] bg-black'>
             <div className=" container">
                 <div className=" lg:flex justify-between gap-x-[20px] items-center">
                     <div className="lg:w-[40%]">

@@ -60,7 +60,7 @@ const Skills = () => {
     }, []);
 
     return (
-        <div className='py-[20px] bg-black'>
+        <div id='Skills'  className='py-[20px] bg-black'>
             <div className="container">
                 <div className="text-center">
                     <h2 className='font-openG font-bold text-[32px] text-white border-b-[2px] border-white'>Skills</h2>

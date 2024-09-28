@@ -2,7 +2,7 @@ import React from 'react'
 import bannerImg from '../assets/images.jpeg'
 const About = () => {
   return (
-    <div className=' py-[20px] bg-black'>
+    <div id='About' className=' py-[20px] bg-black'>
       <div className=" container">
         <div className=" text-center">
           <h4 className=' font-openG font-semibold text-[26px] text-white  border-b-[2px] border-white '>About</h4>
