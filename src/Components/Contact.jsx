@@ -4,7 +4,7 @@ import Scrollbottons from './Scrollbottons';
 
 const Contact = () => {
   return (
-      <div className=' py-[20px] bg-black'>
+      <div id='Contact' className=' py-[20px] bg-black'>
           <div className=" container">
               <div className=" lg:flex justify-between gap-x-[20px] items-center">
                   <div className="lg:w-[48%]">
