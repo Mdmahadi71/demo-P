@@ -87,11 +87,11 @@ const Skills = () => {
                        <div className=" flex flex-wrap justify-between items-center">
                        {circelbar.map((item, index) => (
                             <div key={index} className="mb-4">
-                                <h2 className="font-openG font-semibold text-[22px] transform translate-x-[50%] text-Sky">{item.name}</h2>
+                                <h2 className="font-openG font-semibold text-[22px]  text-Sky">{item.name}</h2>
                                 <Circle 
                                     percent={circless[index]} 
                                     strokeWidth={6} 
-                                    className='w-[100px] h-[100px] transform translate-x-[50%]' 
+                                    className='w-[100px] h-[100px]' 
                                     strokeColor="#00BFFF" 
                                 />
                                 <p className='font-openG font-semibold text-[22px] text-Sky'>{circless[index]}%</p>

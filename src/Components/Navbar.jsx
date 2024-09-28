@@ -14,8 +14,8 @@ const Navbar = () => {
                     <div className={`w-[85%] lg:flex justify-between items-center  absolute lg:static duration-300 ${show==true ? ' top-0 right-0 bg-black w-full ' :' top-[-300px] right-0 w-full '}`}>
                         <div className="lg:w-[70%] ">
                             <ul className=' lg:flex lg:gap-x-[40px] justify-center my-4 lg:my-0 text-center lg:text-start'>
-                                <li className=' font-openG font-semibold text-[18px] text-white hover:text-Sky duration-300'><a href="#">Home</a></li>
-                                <li className=' font-openG font-semibold text-[18px] text-white hover:text-Sky duration-300'><a href="#">About</a></li>
+                                <li className=' font-openG font-semibold text-[18px] text-white hover:text-Sky duration-300'><a href="#home">Home</a></li>
+                                <li className=' font-openG font-semibold text-[18px] text-white hover:text-Sky duration-300'><a href="#About">About</a></li>
                                 <li className=' font-openG font-semibold text-[18px] text-white hover:text-Sky duration-300'><a href="#Skills">Skill</a></li>
                                 <li className=' font-openG font-semibold text-[18px] text-white hover:text-Sky duration-300'><a href="#Contact">Contact</a></li>
                             </ul>

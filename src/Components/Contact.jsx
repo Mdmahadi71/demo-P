@@ -12,13 +12,14 @@ const Contact = () => {
                       <p className=' font-openG font-normal text-[16px] text-Sky text-center lg:text-start'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illum odio ullam nulla
                           sed eos esse earum accusantium sit
                           corporis voluptas, placeat harum nesciunt, magni officiis? Libero vero placeat error.</p>
-
+                          <h6 className=' font-openG font-normal text-[16px] text-Sky text-center lg:text-start my-4' >+8801300000000</h6>
                       <div className=" flex gap-x-4  items-center my-2 justify-center lg:justify-start ">
                           <FaFacebookSquare className=' text-[22px] cursor-pointer text-white' />
                           <FaLinkedin className=' text-[22px] cursor-pointer text-white' />
                           <FaInstagramSquare className=' text-[22px] cursor-pointer text-white' />
                           <FaGithub className=' text-[22px] cursor-pointer text-white' />
                       </div>
+                     
                   </div>
                   <div className="lg:w-[48%] mx-auto">
                     <div className=" my-2">
