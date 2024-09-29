@@ -5,6 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { BsDownload } from "react-icons/bs";
 import { Typewriter ,handleType } from 'react-simple-typewriter'
 import { FaFacebookSquare ,FaLinkedin ,FaInstagramSquare ,FaGithub  } from "react-icons/fa";
+import DarkandLight from './DarkandLight';
 
 const Banner = () => {
 
@@ -12,7 +13,7 @@ const Banner = () => {
 
     }
     return (
-        <div id='home' className=' py-[50px] bg-black'>
+        <div id='home' className=' py-[50px] dark:bg-white dark:text-black bg-black'>
             <div className=" container">
                 <div className=" lg:flex justify-between gap-x-[20px] items-center">
                     <div className="lg:w-[40%]">
@@ -70,7 +71,7 @@ const Banner = () => {
                                     />
                                 </span>
                             </h1>
-                            <h2 className=' font-openG font-normal text-[16px] text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem non maxime quis quos, 
+                            <h2 className=' font-openG font-normal text-[16px] text-white dark:text-black'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem non maxime quis quos, 
                                 laboriosam harum unde consequatur voluptas quasi iste sed cumque rem quas odit cupiditate incidunt commodi quam! 
                                 Veniam magni, ipsa natus ratione molestiae laboriosam 
                                 fuga quis dignissimos dicta quod illum voluptas iure ab officia eum illo voluptate nemo.</h2>
@@ -80,6 +81,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
+          
         </div>
     )
 }

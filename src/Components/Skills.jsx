@@ -60,10 +60,10 @@ const Skills = () => {
     }, []);
 
     return (
-        <div id='Skills'  className='py-[20px] bg-black'>
+        <div id='Skills'  className='py-[20px] dark:bg-white dark:text-black bg-black'>
             <div className="container">
                 <div className="text-center">
-                    <h2 className='font-openG font-bold text-[32px] text-white border-b-[2px] border-white'>Skills</h2>
+                    <h2 className='font-openG font-bold text-[32px] text-white border-b-[2px] dark:border-black border-white dark:text-black'>Skills</h2>
                 </div>
                 <div className="lg:flex justify-between my-[20px]">
                     
