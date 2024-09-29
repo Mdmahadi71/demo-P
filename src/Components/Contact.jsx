@@ -23,28 +23,28 @@ const Contact = () => {
                   </div>
                   <div className="lg:w-[48%] mx-auto">
                     <div className=" my-2">
-                        <h3 className=' font-openG font-semibold text-[18px] text-white'>Your Name</h3>
-                        <input type="text" name="" className=' border-[2px] border-Sky bg-black w-full h-[50px] outline-none' placeholder='Name' required id="" />
+                        <h3 className=' font-openG font-semibold text-[18px] text-white mb-2'>Your Name</h3>
+                        <input type="text" name="" className=' border-[2px] border-Sky bg-black w-full h-[50px] p-2 outline-none' placeholder='Name' required id="" />
                     </div>
                     <div className="my-2">
-                        <h3 className=' font-openG font-semibold text-[18px] text-white'>Your Email</h3>
-                        <input type="email" name="" className=' border-[2px] border-Sky bg-black w-full h-[50px] outline-none' placeholder='Email' required id="" />
+                        <h3 className=' font-openG font-semibold text-[18px] text-white mb-2'>Your Email</h3>
+                        <input type="email" name="" className=' border-[2px] border-Sky bg-black w-full h-[50px] p-2 outline-none' placeholder='Email' required id="" />
                     </div>
                     <div className="my-2">
-                        <h3 className=' font-openG font-semibold text-[18px] text-white'>Your Subject</h3>
-                        <input type="text" name="" className=' border-[2px] border-Sky bg-black w-full h-[50px] outline-none' placeholder='Subject' required id="" />
+                        <h3 className=' font-openG font-semibold text-[18px] text-white mb-2'>Your Subject</h3>
+                        <input type="text" name="" className=' border-[2px] border-Sky bg-black w-full h-[50px] p-2 outline-none' placeholder='Subject' required id="" />
                     </div>
                     <div className=" my-2">
-                        <h3 className=' font-openG font-semibold text-[18px] text-white'>Your Massage</h3>
+                        <h3 className=' font-openG font-semibold text-[18px] text-white mb-2'>Your Massage</h3>
                         
-                        <textarea name="" type="text" className=' border-[2px] border-Sky bg-black w-full h-[50px] outline-none' placeholder='Massage' id=""/>
+                        <textarea name="" type="text" className=' border-[2px] border-Sky bg-black w-full h-[50px] p-2 outline-none' placeholder='Massage' id=""/>
                     </div>
                     <button className=' py-3 px-5 bg-Sky  text-[18px] font-openG font-semibold '>Send Message</button>
                   </div>
               </div>
 
-              <div className="">
-                <p></p>
+              <div className=" text-center mt-4">
+                <p className=' font-openG font-normal text-[14px] text-white dark:text-black'> © copywriting template v-1.0.0 | 2024 </p>
               </div>
               <Scrollbottons/>
           </div>

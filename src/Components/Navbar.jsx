@@ -24,7 +24,7 @@ const Navbar = () => {
                                 <li className='font-openG font-semibold text-[18px] text-white dark:text-black hover:text-Sky duration-300'><a href="#About">About</a></li>
                                 <li className='font-openG font-semibold text-[18px] text-white dark:text-black hover:text-Sky duration-300'><a href="#Skills">Skills</a></li>
                                 <li className='font-openG font-semibold text-[18px] text-white dark:text-black hover:text-Sky duration-300'><a href="#Contact">Contact</a></li>
-                                <div className=' text-center lg:text-start'>
+                                <div className=' text-center lg:text-start my-2 lg:my-0'>
                                     <DarkandLight />
                                 </div>
                             </ul>

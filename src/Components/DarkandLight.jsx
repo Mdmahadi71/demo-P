@@ -16,8 +16,8 @@ const DarkandLight = () => {
   return (
       <div>
           <div>
-              <button onClick={() => setTheme(!theme)} className='bg-slate-50  dark:bg-black'>
-                  {theme ? <CiLight/> : <MdDarkMode/>}
+              <button onClick={() => setTheme(!theme)} className= 'px-[14px] py-2  bg-slate-50  dark:bg-black rounded-[3px]' >
+                  {theme ? <CiLight /> : <MdDarkMode />}
               </button>
           </div>
       </div>
